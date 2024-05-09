@@ -1,0 +1,112 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Hey I'm looking for "
+    }, {
+      "text": "right side rear window",
+      "parameterId": "glass_type"
+    }, {
+      "text": " for my "
+    }, {
+      "text": "Honda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Vezel",
+      "parameterId": "vehicle_model"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hello I need a "
+    }, {
+      "text": "right rear windows",
+      "parameterId": "glass_type"
+    }, {
+      "text": " replacement for an "
+    }, {
+      "text": "LDV",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "deliver 9",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": " high roof "
+    }, {
+      "text": "van",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Windscreen"
+    }, {
+      "text": " "
+    }, {
+      "text": "2020",
+      "parameterId": "vehicle_year",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Dodge",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "Challenger",
+      "parameterId": "vehicle_model"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "front windscreen",
+      "parameterId": "glass_type"
+    }, {
+      "text": " for my "
+    }, {
+      "text": "Renault",
+      "parameterId": "vehicle_make"
+    }, {
+      "text": " "
+    }, {
+      "text": "Masters",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": "2006",
+      "parameterId": "vehicle_year",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to buy a "
+    }, {
+      "text": "windscreen",
+      "parameterId": "glass_type"
+    }, {
+      "text": " for my "
+    }, {
+      "text": "Honda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "civic",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

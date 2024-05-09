@@ -1,0 +1,13 @@
+{
+  "name": "8f0db2ff-864a-4b5c-b194-853a9eeb2846",
+  "displayName": "prebuilt_components_feedback:update_feedback",
+  "genericWebService": {
+    "uri": "https://www.example.com",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"feedback_score\": \"$flow.feedback_score\",\n  \"feedback_comment\": \"$flow.feedback_comment\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"updateFeedback\"\n  }\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

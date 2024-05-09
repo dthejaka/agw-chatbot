@@ -1,0 +1,12 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Example"
+  },
+  "languageCode": "en",
+  "knowledgeConnectorSettings": {
+    "business": "Autoglass Warehouse"
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "0a45b045-04b4-4012-9cb8-a4005cbb0294",
+  "displayName": "thank you",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Thank you for providing your information. Customer support agent will connect with you shortly. In the meantime, please feel free to browse our online store." ]
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "cx call",
+    "tag": "cx_direct"
+  }
+}

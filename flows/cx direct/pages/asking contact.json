@@ -1,0 +1,35 @@
+{
+  "name": "07099d0d-0d45-49d9-8250-8936d710fa05",
+  "displayName": "asking contact",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.asking_contact" ]
+      },
+      "languageCode": "en"
+    } ],
+    "generators": [ {
+      "generator": "projects/agw-new/locations/global/agents/2fe551d9-01e4-4443-9db6-dcdc361d49e3/generators/c9378c56-5526-4d95-88f7-f580a0df9ed2",
+      "outputParameter": "$request.generative.asking_contact"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "telling.mobile.or.email",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "thank you",
+    "name": "c2ee5224-6be6-4803-afb3-695a5dae8bde"
+  }, {
+    "condition": "$session.params.mobile_or_email != null OR $session.params.email != null OR $session.params.number != null OR $session.params.phone-number != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "thank you",
+    "name": "4855cad2-e899-4d9f-9d0a-3fcdd552f47b"
+  } ],
+  "description": "This page ask for the contact details"
+}

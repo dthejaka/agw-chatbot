@@ -1,0 +1,13 @@
+{
+  "name": "73c54e21-288a-4fd0-99a6-db7d27c00d64",
+  "displayName": "directing to cx 2",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 8069,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

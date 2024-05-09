@@ -1,0 +1,18 @@
+{
+  "trainingPhrases": [ {
+    "id": "a24b6525-198f-4aee-8001-2de460370f75",
+    "parts": [ {
+      "text": "Do you have an outlet in ",
+      "auto": true
+    }, {
+      "text": "Canberra",
+      "parameterId": "geo-city",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-au"
+  } ]
+}
