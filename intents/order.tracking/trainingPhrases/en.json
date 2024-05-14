@@ -1,0 +1,97 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "N10226",
+      "parameterId": "orderid"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "N10223",
+      "parameterId": "orderid",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hi Just paid for a windscreen for Peugeot 207 online. Order ID "
+    }, {
+      "text": "N117952",
+      "parameterId": "orderid"
+    }, {
+      "text": " Can l pick up from Tullamarine on Monday? I have specified under delivery instructions Thanks John"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can I have the whereabouts of my invoice?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "where is my order?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "update on my order id "
+    }, {
+      "text": "n98331",
+      "parameterId": "orderid"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "update on my invoice "
+    }, {
+      "text": "N10234",
+      "parameterId": "orderid"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "order status of "
+    }, {
+      "text": "N10001",
+      "parameterId": "orderid"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "order status "
+    }, {
+      "text": "N10223",
+      "parameterId": "orderid"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I know the status of my order "
+    }, {
+      "text": "N10001",
+      "parameterId": "orderid"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Where is my order "
+    }, {
+      "text": "N102232",
+      "parameterId": "orderid"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -23,12 +23,19 @@
     },
     "name": "c1ccfdbe-960c-4c49-8c0e-1a1fa3af71ec"
   }, {
-    "intent": "glass.buy",
+    "intent": "order.tracking",
     "triggerFulfillment": {
     
     },
-    "targetPage": "buy glass",
-    "name": "09a8de9b-2340-4d73-b050-dd186341da02"
+    "targetFlow": "order tracking",
+    "name": "e0999f42-9421-49d3-ac2b-565b1eae5353"
+  }, {
+    "intent": "sku.given",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "cx direct",
+    "name": "9b695f55-0739-42e2-b6c5-221deb210cdf"
   }, {
     "intent": "customer.team.direct",
     "triggerFulfillment": {
@@ -36,6 +43,20 @@
     },
     "targetPage": "cx direct",
     "name": "0bdb04ea-0be8-45d1-9657-bd6830e530ef"
+  }, {
+    "intent": "glass.buy",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "buy glass",
+    "name": "09a8de9b-2340-4d73-b050-dd186341da02"
+  }, {
+    "condition": "$session.params.sku != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "cx direct",
+    "name": "43caa9fb-612f-4ea4-9773-c3c258306d6c"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -91,6 +112,11 @@
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
       "dataStore": "projects/128542147814/locations/global/collections/default_collection/dataStores/agw-faqs-1_1713771859807",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS"
+    }, {
+      "dataStoreType": "STRUCTURED",
+      "dataStore": "projects/128542147814/locations/global/collections/default_collection/dataStores/agw-faqs-csv_1715327994082",
       "languageCode": "en",
       "documentProcessingMode": "DOCUMENTS"
     } ]

@@ -1,0 +1,15 @@
+{
+  "name": "431d6915-58bc-4afb-9732-93c10325ddb7",
+  "displayName": "order details",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "order.tracking",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "039a9f55-7fee-46dc-bafc-9e5c0f94f578"
+  } ]
+}

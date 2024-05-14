@@ -17,7 +17,7 @@
     "triggerFulfillment": {
     
     },
-    "targetFlow": "cx direct",
+    "targetPage": "collecting missing information",
     "name": "9283d94d-4a2a-47b1-8d7e-93c251ee81ff"
   } ],
   "eventHandlers": [ {

@@ -13,5 +13,13 @@
     } ],
     "webhook": "cx call",
     "tag": "cx_direct"
-  }
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "e458b781-2e77-402f-8953-fb62e37753e7"
+  } ]
 }

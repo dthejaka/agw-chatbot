@@ -1,6 +1,13 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "I dont know how to select the correct series",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "there are too many series, I don't know what to select",
       "auto": true
     } ],

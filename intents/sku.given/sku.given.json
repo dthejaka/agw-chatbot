@@ -1,0 +1,13 @@
+{
+  "name": "5a8cb9cd-e22e-4494-908a-8934f39fc5dd",
+  "displayName": "sku.given",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  }, {
+    "id": "sku",
+    "entityType": "@sku"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

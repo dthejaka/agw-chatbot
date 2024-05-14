@@ -39,7 +39,7 @@
   
   },
   "answerFeedbackSettings": {
-  
+    "enableAnswerFeedback": true
   },
   "webClientSettings": {
   

@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "^N\\d{5}$",
+    "synonyms": [ "^N\\d{5}$" ],
+    "languageCode": "en"
+  }, {
+    "value": "[0-9]{5}",
+    "synonyms": [ "[0-9]{5}" ],
+    "languageCode": "en"
+  } ]
+}

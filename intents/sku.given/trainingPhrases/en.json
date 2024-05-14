@@ -1,0 +1,59 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "you have a Mazda Glass I wish to purchase Advertized - "
+    }, {
+      "text": "SKU",
+      "parameterId": "sku"
+    }, {
+      "text": " "
+    }, {
+      "text": "4231",
+      "parameterId": "number"
+    }, {
+      "text": " Can I get it delivered to your business address in Scorseby Melbourne ?? and if so cost of transfer ?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hi. I am interested in a windshield for a Mercedes CL from 2000 (w215). It's most likely this glass: "
+    }, {
+      "text": "SKU",
+      "parameterId": "sku"
+    }, {
+      "text": ": ["
+    }, {
+      "text": "59491",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": "_"
+    }, {
+      "text": "1",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": "] (code from your website). Can I pick her up somewhere in Sydney? Like tomorrow or the day after tomorrow? Do you also ship to a specific"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hi, just wondering if you have "
+    }, {
+      "text": "SKU",
+      "parameterId": "sku"
+    }, {
+      "text": ": "
+    }, {
+      "text": "4179",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " in stock? thank you"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Would you mind sharing your name with us, please?", "Could you kindly provide us with your name?", "To assist us further, could you share your name?", "May we ask for your name, please?" ]
+        "text": [ "Would you mind sharing your name with me, please?", "Could you kindly provide me with your name?", "To assist you further, could you share your name?", "May I ask for your name, please?" ]
       },
       "languageCode": "en"
     } ]
