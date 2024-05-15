@@ -31,5 +31,13 @@
     "targetPage": "thank you",
     "name": "4855cad2-e899-4d9f-9d0a-3fcdd552f47b"
   } ],
+  "eventHandlers": [ {
+    "targetPage": "asking contact",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "426daa27-b5d0-49f8-898e-ebd86f780450"
+  } ],
   "description": "This page ask for the contact details"
 }

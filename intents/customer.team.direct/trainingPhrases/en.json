@@ -1,6 +1,26 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Contact customer service agent",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Contact customer agent"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I speak to someone",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "I dont know how to select the correct series",
       "auto": true
     } ],

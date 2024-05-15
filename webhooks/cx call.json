@@ -2,7 +2,7 @@
   "name": "262c67ea-223d-403c-a407-6c69e22d8bef",
   "displayName": "cx call",
   "genericWebService": {
-    "uri": "https://6055-2402-d000-a400-9816-8c36-c158-72fa-5fea.ngrok-free.app",
+    "uri": "https://agw-chatbot.onrender.com/",
     "requestHeaders": [ {
       "key": "conversation",
       "value": "$conversation"

@@ -4,12 +4,34 @@
   "form": {
   
   },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+      
+      },
+      "languageCode": "en"
+    } ]
+  },
   "transitionRoutes": [ {
     "intent": "order.tracking",
     "triggerFulfillment": {
     
     },
     "targetFlow": "cx direct",
-    "name": "039a9f55-7fee-46dc-bafc-9e5c0f94f578"
+    "name": "71b19e9b-8b9c-49ea-96b0-a1476ec48c1a"
+  }, {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "f19aa312-cac1-4963-b486-21db1ec70115"
+  }, {
+    "condition": "$session.params.orderid != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "cdbc3e8b-1fc7-4289-8380-5bd0c7c40619"
   } ]
 }

@@ -2,7 +2,19 @@
   "name": "981a2143-f028-4d63-a5e5-4ace2da6b6fa",
   "displayName": "order tracking",
   "transitionRoutes": [ {
-    "condition": "True",
+    "condition": "$session.params.orderid = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry, I'm not capable of handling order related inquires at the moment. I will direct you to a customer agent.\n\nBut first, could you please give me your orderID starting with letter 'N'. Eg: N12345" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "order details",
+    "name": "309d0858-41a6-4f34-b042-0b4418a7449e"
+  }, {
+    "condition": "$session.params.orderid != null",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -11,8 +23,8 @@
         "languageCode": "en"
       } ]
     },
-    "targetPage": "order details",
-    "name": "309d0858-41a6-4f34-b042-0b4418a7449e"
+    "targetFlow": "cx direct",
+    "name": "ab1d7234-e10c-43e6-8e9e-135213a2662a"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -50,5 +62,6 @@
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
-  }
+  },
+  "transitionRouteGroups": [ "Order Tracking Route Group" ]
 }

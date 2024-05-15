@@ -37,8 +37,10 @@
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001
+    "classificationThreshold": 0.2,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
   },
+  "transitionRouteGroups": [ "CX Direct Other Intent Group" ],
   "knowledgeConnectorSettings": {
     "enabled": true,
     "triggerFulfillment": {
@@ -48,12 +50,6 @@
         },
         "languageCode": "en"
       } ]
-    },
-    "dataStoreConnections": [ {
-      "dataStoreType": "UNSTRUCTURED",
-      "dataStore": "projects/128542147814/locations/global/collections/default_collection/dataStores/agw-faqs-1_1713771859807",
-      "languageCode": "en",
-      "documentProcessingMode": "DOCUMENTS"
-    } ]
+    }
   }
 }

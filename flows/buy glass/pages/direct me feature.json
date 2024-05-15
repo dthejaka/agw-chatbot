@@ -10,6 +10,11 @@
         "text": [ "And hey, if you need any extra help, just give a shout by typing \"Direct me\", I will connect you with a customer support agent.", "Type \"Direct me\" if you wish to speak with a customer agent, and I'll connect you.", "If you need assistance from a customer agent, just type \"Direct me\" and I'll put you through.", "Want additional assistance? Say \"Direct me,\" and I'll connect you with a member of our support team.", "If you need help beyond this, simply type \"Direct me,\" and I'll ensure you receive the assistance you need.", "Need help from a customer agent? Type \"Direct me\" and I'll get you in touch.", "Looking to speak with a customer agent? Just type \"Direct me\" and I'll assist you." ]
       },
       "languageCode": "en"
+    }, {
+      "payload": {
+      
+      },
+      "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
