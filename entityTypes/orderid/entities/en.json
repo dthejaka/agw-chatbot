@@ -11,5 +11,9 @@
     "value": "N\\d+",
     "synonyms": [ "N\\d+" ],
     "languageCode": "en"
+  }, {
+    "value": "n\\d+",
+    "synonyms": [ "n\\d+" ],
+    "languageCode": "en"
   } ]
 }

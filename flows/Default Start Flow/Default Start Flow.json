@@ -34,7 +34,7 @@
     "triggerFulfillment": {
     
     },
-    "targetPage": "cx direct",
+    "targetFlow": "SKU given",
     "name": "9b695f55-0739-42e2-b6c5-221deb210cdf"
   }, {
     "intent": "customer.team.direct",

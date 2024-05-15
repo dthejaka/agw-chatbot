@@ -1,37 +1,19 @@
 {
-  "name": "431d6915-58bc-4afb-9732-93c10325ddb7",
+  "name": "4b4171f9-eff8-4746-89fe-172d529ffb7a",
   "displayName": "order details",
   "form": {
   
   },
   "entryFulfillment": {
-    "messages": [ {
-      "payload": {
-      
-      },
-      "languageCode": "en"
-    } ]
+  
   },
   "transitionRoutes": [ {
-    "intent": "order.tracking",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "cx direct",
-    "name": "71b19e9b-8b9c-49ea-96b0-a1476ec48c1a"
-  }, {
-    "intent": "customer.team.direct",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "cx direct",
-    "name": "f19aa312-cac1-4963-b486-21db1ec70115"
-  }, {
+    "intent": "order.tracking.saying.orderid",
     "condition": "$session.params.orderid != null",
     "triggerFulfillment": {
     
     },
     "targetFlow": "cx direct",
-    "name": "cdbc3e8b-1fc7-4289-8380-5bd0c7c40619"
+    "name": "0656fc12-13cb-4aa6-84d5-8373bd309761"
   } ]
 }

@@ -1,23 +1,14 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "How can I track my order",
+      "text": "How can I track my order N\\d+",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "N10226",
-      "parameterId": "orderid"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "N10223",
-      "parameterId": "orderid",
-      "auto": true
+      "text": "How can I track my order"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
