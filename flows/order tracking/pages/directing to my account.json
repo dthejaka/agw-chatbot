@@ -1,0 +1,54 @@
+{
+  "name": "fdb7fcdc-0389-439f-a56d-5bb0c7cdda8a",
+  "displayName": "directing to my account",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You can track your order by login into your account here\n" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "anchor": {
+            "href": "https://www.autoglasswarehouse.com.au/_myacct"
+          },
+          "image": {
+            "rawUrl": "https://example.com/images/logo.png"
+          },
+          "subtitle": "Click here to login into your account",
+          "title": "Login Now",
+          "type": "info"
+        } ] ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "If you need further assistance, please contact one of our customer service agent." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Contact Customer Support"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "orderid check",
+    "name": "448983a6-1e61-4312-a096-0213c4ed2221"
+  } ],
+  "transitionRouteGroups": [ "Order Tracking Route Group" ]
+}

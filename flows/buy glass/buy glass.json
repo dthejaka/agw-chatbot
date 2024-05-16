@@ -36,11 +36,16 @@
           "text": [ "$request.knowledge.answers[0]" ]
         },
         "languageCode": "en"
+      }, {
+        "languageCode": "en",
+        "knowledgeInfoCard": {
+          "maximumSnippets": 1
+        }
       } ]
     },
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
-      "dataStore": "projects/128542147814/locations/global/collections/default_collection/dataStores/agw-faqs-1_1713771859807",
+      "dataStore": "projects/609843612112/locations/global/collections/default_collection/dataStores/agw-faqs-1_1713771859807",
       "languageCode": "en",
       "documentProcessingMode": "DOCUMENTS"
     } ]

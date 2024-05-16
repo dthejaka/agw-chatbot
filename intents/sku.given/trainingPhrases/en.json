@@ -1,6 +1,206 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "I'd like to check availability for ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "90122",
+      "parameterId": "number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Where can I find the product name/description (then provide ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number if known)?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I found this code ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number online. Is it a valid product you sell?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I get the product name/description with code ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm interested in the product name/description. Do you have it?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'd like to check availability for SKU ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's the stock status for item number ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is the ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number available for purchase?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I order the item with ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do you have the ",
+      "auto": true
+    }, {
+      "text": "SKU",
+      "parameterId": "sku",
+      "auto": true
+    }, {
+      "text": " number in stock?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Where can I find the product name/description (then provide Product ID/Part number/Model number if known)?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I found this code Product ID/Part number/Model number online. Is it a valid product you sell?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is this item (shows picture of product) available (then provide Product ID/Part number/Model number if known)?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I get the product name/description with code Product ID?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's the stock status for Product ID number number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Is the Model number available for purchase?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I order the item with Part number?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do you have the Product ID in stock?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "you have a Mazda Glass I wish to purchase Advertized - "
     }, {
       "text": "SKU",

@@ -17,7 +17,7 @@
         "languageCode": "en-au"
       } ],
       "generators": [ {
-        "generator": "projects/agw-new/locations/global/agents/2fe551d9-01e4-4443-9db6-dcdc361d49e3/generators/7c1bd3c0-6b25-4d7f-94d0-213934f806fe",
+        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/7c1bd3c0-6b25-4d7f-94d0-213934f806fe",
         "outputParameter": "$request.generative.welcome_direct"
       } ]
     },
@@ -55,7 +55,7 @@
     "triggerFulfillment": {
     
     },
-    "targetPage": "cx direct",
+    "targetFlow": "SKU given",
     "name": "43caa9fb-612f-4ea4-9773-c3c258306d6c"
   } ],
   "eventHandlers": [ {
@@ -67,13 +67,27 @@
         },
         "languageCode": "en"
       }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Buy Glass"
+            }, {
+              "text": "Track Order"
+            }, {
+              "text": "Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
         "text": {
           "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
         },
         "languageCode": "en-au"
       } ],
       "generators": [ {
-        "generator": "projects/agw-new/locations/global/agents/2fe551d9-01e4-4443-9db6-dcdc361d49e3/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
+        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
         "outputParameter": "$request.generative.fallback1"
       } ]
     },
@@ -107,16 +121,16 @@
           "text": [ "$request.knowledge.answers[0]" ]
         },
         "languageCode": "en"
+      }, {
+        "languageCode": "en",
+        "knowledgeInfoCard": {
+          "maximumSnippets": 1
+        }
       } ]
     },
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
-      "dataStore": "projects/128542147814/locations/global/collections/default_collection/dataStores/agw-faqs-1_1713771859807",
-      "languageCode": "en",
-      "documentProcessingMode": "DOCUMENTS"
-    }, {
-      "dataStoreType": "STRUCTURED",
-      "dataStore": "projects/128542147814/locations/global/collections/default_collection/dataStores/agw-faqs-csv_1715327994082",
+      "dataStore": "projects/609843612112/locations/global/collections/default_collection/dataStores/un-agw-faq-csv_1715673688492",
       "languageCode": "en",
       "documentProcessingMode": "DOCUMENTS"
     } ]

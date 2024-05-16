@@ -12,7 +12,7 @@
       "languageCode": "en"
     } ],
     "generators": [ {
-      "generator": "projects/agw-new/locations/global/agents/2fe551d9-01e4-4443-9db6-dcdc361d49e3/generators/c9378c56-5526-4d95-88f7-f580a0df9ed2",
+      "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/c9378c56-5526-4d95-88f7-f580a0df9ed2",
       "outputParameter": "$request.generative.asking_contact"
     } ]
   },

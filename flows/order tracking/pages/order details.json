@@ -5,7 +5,12 @@
   
   },
   "entryFulfillment": {
-  
+    "messages": [ {
+      "text": {
+        "text": [ "Could you please provide me your order ID starting from the letter \"N\"? Eg: N90000" ]
+      },
+      "languageCode": "en"
+    } ]
   },
   "transitionRoutes": [ {
     "intent": "order.tracking.saying.orderid",

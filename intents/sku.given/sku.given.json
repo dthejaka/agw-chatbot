@@ -7,7 +7,10 @@
   }, {
     "id": "sku",
     "entityType": "@sku"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 3
+  "numTrainingPhrases": 21
 }

@@ -7,11 +7,11 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Thank you for providing your information. Customer support agent will connect with you shortly. In the meantime, please feel free to browse our online store." ]
+        "text": [ "Thank you for providing your information. Customer support agent will contact with you shortly. In the meantime, please feel free to browse our online store." ]
       },
       "languageCode": "en"
     } ],
-    "webhook": "cx call",
+    "webhook": "cx call local",
     "tag": "cx_direct"
   },
   "transitionRoutes": [ {

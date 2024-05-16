@@ -7,7 +7,17 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "And hey, if you need any extra help, just give a shout by typing \"Direct me\", I will connect you with a customer support agent.", "Type \"Direct me\" if you wish to speak with a customer agent, and I'll connect you.", "If you need assistance from a customer agent, just type \"Direct me\" and I'll put you through.", "Want additional assistance? Say \"Direct me,\" and I'll connect you with a member of our support team.", "If you need help beyond this, simply type \"Direct me,\" and I'll ensure you receive the assistance you need.", "Need help from a customer agent? Type \"Direct me\" and I'll get you in touch.", "Looking to speak with a customer agent? Just type \"Direct me\" and I'll assist you." ]
+        "text": [ "And hey, if you need any extra help, just contact a customer support agent.", "If you need assistance from a customer agent, click below.", "Want additional assistance? Contact a customer support agent.", "If you need help beyond this, click below.", "Looking to speak with a customer agent?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Contact Customer Support"
+          } ],
+          "type": "chips"
+        } ] ]
       },
       "languageCode": "en"
     } ]
@@ -30,7 +40,7 @@
         "languageCode": "en"
       } ],
       "generators": [ {
-        "generator": "projects/agw-new/locations/global/agents/2fe551d9-01e4-4443-9db6-dcdc361d49e3/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
+        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
         "outputParameter": "$request.generative.fallback3"
       } ]
     },
