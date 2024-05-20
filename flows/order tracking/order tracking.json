@@ -39,7 +39,8 @@
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001
+    "classificationThreshold": 0.60000002,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
   },
   "transitionRouteGroups": [ "Order Tracking Route Group" ],
   "knowledgeConnectorSettings": {

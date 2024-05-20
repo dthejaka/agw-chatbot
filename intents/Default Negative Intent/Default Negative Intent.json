@@ -4,8 +4,11 @@
   "parameters": [ {
     "id": "geo-city",
     "entityType": "@sys.geo-city"
+  }, {
+    "id": "vehicle_model",
+    "entityType": "@vehicle_model"
   } ],
   "priority": 500000,
   "isFallback": true,
-  "numTrainingPhrases": 1
+  "numTrainingPhrases": 7
 }

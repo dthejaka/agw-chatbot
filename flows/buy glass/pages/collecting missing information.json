@@ -31,11 +31,20 @@
   },
   "transitionRoutes": [ {
     "intent": "telling.vehicle.information",
+    "condition": "$session.params.glass_type != Windscreen",
     "triggerFulfillment": {
     
     },
     "targetFlow": "cx direct",
-    "name": "2064eaa4-ab02-4c41-9991-005ca5aa145d"
+    "name": "3e740ed4-a0fe-4611-b3c5-4f4dc9e81185"
+  }, {
+    "intent": "telling.vehicle.information",
+    "condition": "$session.params.glass_type = Windscreen",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "windscreen extra information",
+    "name": "2bd5bbdc-55c0-4260-a999-c7c5a8f9c139"
   } ],
   "eventHandlers": [ {
     "targetFlow": "cx direct",

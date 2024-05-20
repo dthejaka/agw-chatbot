@@ -7,7 +7,21 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "$request.generative.welcome_direct" ]
+          "text": [ "Hi, how can I help you?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Buy Glass"
+            }, {
+              "text": "Track Order"
+            }, {
+              "text": "Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
         },
         "languageCode": "en"
       }, {
@@ -15,10 +29,6 @@
           "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
         },
         "languageCode": "en-au"
-      } ],
-      "generators": [ {
-        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/7c1bd3c0-6b25-4d7f-94d0-213934f806fe",
-        "outputParameter": "$request.generative.welcome_direct"
       } ]
     },
     "name": "c1ccfdbe-960c-4c49-8c0e-1a1fa3af71ec"
@@ -111,7 +121,8 @@
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001
+    "classificationThreshold": 0.40000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
   },
   "knowledgeConnectorSettings": {
     "enabled": true,

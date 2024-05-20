@@ -7,19 +7,24 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Thank you for providing your information. Customer support agent will contact with you shortly. In the meantime, please feel free to browse our online store." ]
+        "text": [ "Thank you for providing your information. Customer support agent will contact you shortly." ]
       },
       "languageCode": "en"
     } ],
-    "webhook": "cx call local",
+    "webhook": "cx call",
     "tag": "cx_direct"
   },
   "transitionRoutes": [ {
     "condition": "true",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "If you have any other questions, please feel free to ask." ]
+        },
+        "languageCode": "en"
+      } ]
     },
-    "targetPage": "End Session",
-    "name": "e458b781-2e77-402f-8953-fb62e37753e7"
+    "targetFlow": "Default Start Flow",
+    "name": "c47d0440-34e2-49e7-a49c-998dbab02d7b"
   } ]
 }

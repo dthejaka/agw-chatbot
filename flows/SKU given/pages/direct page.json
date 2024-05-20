@@ -14,10 +14,8 @@
       "payload": {
         "richContent": [ [ {
           "options": [ {
-            "mode": "blocking",
             "text": "Yes"
           }, {
-            "mode": "blocking",
             "text": "No"
           } ],
           "type": "chips"
@@ -36,7 +34,30 @@
   }, {
     "intent": "sku.customer.direct.no",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "Is there anything else I can help you with?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Buy Glass"
+            }, {
+              "text": "Track Order"
+            }, {
+              "text": "Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "sku",
+        "value": null
+      } ]
     },
     "targetFlow": "Default Start Flow",
     "name": "74d2f007-3614-4c5c-bfdf-2f3ebb209738"

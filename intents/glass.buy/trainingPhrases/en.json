@@ -1,6 +1,18 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "i need a new ",
+      "auto": true
+    }, {
+      "text": "glass"
+    }, {
+      "text": " for my vehicle",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "I need ",
       "auto": true
     }, {

@@ -24,7 +24,7 @@
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001,
+    "classificationThreshold": 0.40000001,
     "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
   },
   "transitionRouteGroups": [ "Buy Glass Other Intent Group" ],

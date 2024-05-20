@@ -14,6 +14,7 @@
   },
   "transitionRoutes": [ {
     "intent": "telling.name",
+    "condition": "$session.params.person != null",
     "triggerFulfillment": {
     
     },
@@ -21,7 +22,7 @@
     "name": "0d6b055f-cab8-4878-954e-22dfab8e08c3"
   } ],
   "eventHandlers": [ {
-    "targetPage": "asking contact",
+    "targetPage": "asking name 2",
     "event": "sys.no-match-default",
     "triggerFulfillment": {
     

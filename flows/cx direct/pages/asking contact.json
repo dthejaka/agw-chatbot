@@ -18,12 +18,6 @@
   },
   "transitionRoutes": [ {
     "intent": "telling.mobile.or.email",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "thank you",
-    "name": "c2ee5224-6be6-4803-afb3-695a5dae8bde"
-  }, {
     "condition": "$session.params.mobile_or_email != null OR $session.params.email != null OR $session.params.number != null OR $session.params.phone-number != null",
     "triggerFulfillment": {
     

@@ -14,13 +14,13 @@
       "payload": {
         "richContent": [ [ {
           "anchor": {
-            "href": "https://www.autoglasswarehouse.com.au/_myacct"
+            "href": "https://www.autoglasswarehouse.com.au/_myacct/nr_track_order"
           },
           "image": {
             "rawUrl": "https://example.com/images/logo.png"
           },
-          "subtitle": "Click here to login into your account",
-          "title": "Login Now",
+          "subtitle": "Click here to track your order",
+          "title": "Track your order",
           "type": "info"
         } ] ]
       },

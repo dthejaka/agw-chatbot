@@ -22,5 +22,12 @@
     },
     "targetFlow": "SKU given",
     "name": "5f995da0-0ac5-4e4c-8017-d521ea414aa2"
+  }, {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "4a2d5e2d-e3c5-49ff-bfc8-e5ad49fe8ff0"
   } ]
 }
