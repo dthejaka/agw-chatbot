@@ -1,6 +1,51 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "3",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": ", "
+    }, {
+      "text": "sedan",
+      "parameterId": "vehicle_body_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "E100",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "alto",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "civic",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "camry",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "Mazda",
       "parameterId": "vehicle_make",
       "auto": true

@@ -2,7 +2,7 @@
   "name": "d24da346-77fb-4f69-bcf9-9ed90d6aec3c",
   "displayName": "cx direct",
   "transitionRoutes": [ {
-    "condition": "true",
+    "condition": "$session.params.person = null",
     "triggerFulfillment": {
       "setParameterActions": [ {
         "parameter": "number",

@@ -1,0 +1,134 @@
+{
+  "name": "2a624bb0-268b-4226-a322-27375a740e91",
+  "displayName": "recollecting missing",
+  "form": {
+    "parameters": [ {
+      "displayName": "vehicle_make",
+      "required": true,
+      "entityType": "@vehicle_make",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "$request.generative.collecting_make" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "I'm not sure about the make"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ],
+          "generators": [ {
+            "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/c2eae2a6-ffaf-4eac-9abb-7d38c8fd11eb",
+            "outputParameter": "$request.generative.collecting_make"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "vehicle_model",
+      "required": true,
+      "entityType": "@vehicle_model",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "$request.generative.collecting_model" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "I'm not sure about the model"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ],
+          "generators": [ {
+            "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/e1943564-68ab-4635-aadf-83cb482f2b59",
+            "outputParameter": "$request.generative.collecting_model"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "vehicle_year",
+      "required": true,
+      "entityType": "@vehicle_year",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "$request.generative.collecting_year" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "I'm not sure about the year"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ],
+          "generators": [ {
+            "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/e35263ef-c7d6-437a-96cc-c7268bc93940",
+            "outputParameter": "$request.generative.collecting_year"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "vehicle_body_type",
+      "required": true,
+      "entityType": "@vehicle_body_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "$request.generative.collecting_body_type" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "I'm not sure about the body type"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ],
+          "generators": [ {
+            "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/d588a5cb-f0f6-41e3-b58f-f9da9674c286",
+            "outputParameter": "$request.generative.collecting_body_type"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.vehicle_make != null AND $session.params.vehicle_model != null AND $session.params.vehicle_year != null AND $session.params.vehicle_body_type != null AND $session.params.glass_type != Windscreen",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "f419024d-2acd-457b-bb06-65d39bd4831a"
+  }, {
+    "condition": "$session.params.vehicle_make != null AND $session.params.vehicle_model != null AND $session.params.vehicle_year != null AND $session.params.vehicle_body_type != null AND $session.params.glass_type = Windscreen",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "windscreen extra information",
+    "name": "d9580d6b-ccae-441f-a53b-083425da0662"
+  } ]
+}

@@ -22,6 +22,20 @@
           "text": [ "If you have any other questions, please feel free to ask." ]
         },
         "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Buy Glass"
+            }, {
+              "text": "Track Order"
+            }, {
+              "text": "Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
       } ]
     },
     "targetFlow": "Default Start Flow",

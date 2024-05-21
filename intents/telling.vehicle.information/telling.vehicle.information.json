@@ -15,5 +15,5 @@
     "entityType": "@vehicle_year"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 12
+  "numTrainingPhrases": 17
 }
