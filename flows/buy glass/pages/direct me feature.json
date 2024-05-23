@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "And hey, if you need any extra help, just contact a customer support agent.", "If you need assistance from a customer agent, click below.", "Want additional assistance? Contact a customer support agent.", "If you need help beyond this, click below.", "Looking to speak with a customer agent?" ]
+        "text": [ "If you need further assistance, please feel free to reach out to our customer support team. We're here to help!", "Need help from a customer support agent? Click below to get in touch.", "Want additional assistance? Contact a customer support agent.", "Need help from a customer support agent? Click below to get in touch.", "Looking for more help? Contact our customer support agent by clicking below" ]
       },
       "languageCode": "en"
     }, {

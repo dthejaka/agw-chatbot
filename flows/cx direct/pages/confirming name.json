@@ -1,0 +1,51 @@
+{
+  "name": "96a143b8-e999-412f-87a7-10268fd2751f",
+  "displayName": "confirming name",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Is your name $session.params.person.name?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "saying.yes",
+    "condition": "$session.params.mobile_or_email != null OR $session.params.phone-number != null OR $session.params.email != null OR $session.params.number != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "contact confirmation",
+    "name": "144d6817-09bb-4e20-8c79-5a1f8ecaba26"
+  }, {
+    "intent": "saying.yes",
+    "condition": "$session.params.mobile_or_email = null OR $session.params.phone-number = null OR $session.params.email = null OR $session.params.number = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "asking contact",
+    "name": "94d982ab-5fb9-4208-a4b2-aa275ec7b701"
+  }, {
+    "intent": "saying.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "asking name",
+    "name": "eae4edbb-3502-4e94-9456-8b1f6c83524a"
+  } ]
+}

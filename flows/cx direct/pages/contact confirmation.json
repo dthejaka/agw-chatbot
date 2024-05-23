@@ -1,0 +1,40 @@
+{
+  "name": "674c88fc-1a05-4800-8433-e92371307ea3",
+  "displayName": "contact confirmation",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.mobile_or_email != null",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "can we contact you through $session.params.mobile_or_email?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "condition": "$session.params.email != null",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "can we contact you through $session.params.email?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "contact confirmation 2",
+    "name": "d7f86629-d587-4f80-be93-7cef11856139"
+  } ]
+}

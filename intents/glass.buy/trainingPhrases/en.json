@@ -1,6 +1,31 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "do you have ",
+      "auto": true
+    }, {
+      "text": "windscreen",
+      "parameterId": "glass_type",
+      "auto": true
+    }, {
+      "text": " for ",
+      "auto": true
+    }, {
+      "text": "honda",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "cr-z",
+      "parameterId": "vehicle_model",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "i need a new ",
       "auto": true
     }, {
@@ -13,29 +38,30 @@
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I need ",
-      "auto": true
+      "text": "I need "
     }, {
       "text": "drivers door",
       "parameterId": "glass_type",
       "auto": true
     }, {
-      "text": " window for my  ",
-      "auto": true
+      "text": " window for my  "
     }, {
       "text": "2006",
       "parameterId": "vehicle_year",
       "auto": true
     }, {
-      "text": " ",
-      "auto": true
+      "text": " "
     }, {
       "text": "mazda",
       "parameterId": "vehicle_make",
       "auto": true
     }, {
-      "text": " 6 sport ",
-      "auto": true
+      "text": " "
+    }, {
+      "text": "6",
+      "parameterId": "vehicle_model"
+    }, {
+      "text": " sport "
     }, {
       "text": "sedan",
       "parameterId": "vehicle_body_type",

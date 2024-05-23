@@ -137,6 +137,21 @@
         "knowledgeInfoCard": {
           "maximumSnippets": 1
         }
+      }, {
+        "text": {
+          "text": [ "And hey, if you need additional support, contact a customer support agent." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Contact Customer Support"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
       } ]
     },
     "dataStoreConnections": [ {

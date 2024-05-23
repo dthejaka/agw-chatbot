@@ -1,6 +1,22 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "My name is "
+    }, {
+      "text": "Rayzell",
+      "parameterId": "person"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Rayzell",
+      "parameterId": "person"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "I'm sorry it's "
     }, {
       "text": "Zoe",

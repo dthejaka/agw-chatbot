@@ -9,5 +9,5 @@
     "entityType": "@sys.geo-city"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 14
+  "numTrainingPhrases": 16
 }

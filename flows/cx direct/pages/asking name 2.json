@@ -36,11 +36,20 @@
     "name": "e5eb5a4d-359e-4f2c-aec0-dbffb69e855d"
   }, {
     "intent": "continue.anyway",
+    "condition": "$session.params.mobile_or_email != null OR $session.params.phone-number != null OR $session.params.email != null OR $session.params.number != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "contact confirmation",
+    "name": "b11342a3-6b99-4978-a19f-721537a546c0"
+  }, {
+    "intent": "continue.anyway",
+    "condition": "$session.params.mobile_or_email = null OR $session.params.phone-number = null OR $session.params.email = null OR $session.params.number = null",
     "triggerFulfillment": {
     
     },
     "targetPage": "asking contact",
-    "name": "b11342a3-6b99-4978-a19f-721537a546c0"
+    "name": "1b37b781-efc0-4172-8c99-b3821b0cf502"
   } ],
   "eventHandlers": [ {
     "targetPage": "asking name 2",

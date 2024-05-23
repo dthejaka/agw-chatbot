@@ -22,7 +22,7 @@
     "triggerFulfillment": {
     
     },
-    "targetPage": "thank you",
+    "targetPage": "asking additional message",
     "name": "4855cad2-e899-4d9f-9d0a-3fcdd552f47b"
   } ],
   "eventHandlers": [ {

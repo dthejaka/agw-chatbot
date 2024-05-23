@@ -1,0 +1,37 @@
+{
+  "name": "baaadffd-2465-424b-9542-f3e0600302f0",
+  "displayName": "contact confirmation 2",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Yes"
+          }, {
+            "text": "No"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "saying.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "thank you",
+    "name": "9556d949-16d2-472a-8d0c-b95efea14863"
+  }, {
+    "intent": "saying.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "asking contact",
+    "name": "ff176410-c7d2-400c-bc60-39d961d12018"
+  } ]
+}

@@ -14,6 +14,14 @@
   },
   "transitionRoutes": [ {
     "intent": "telling.name",
+    "condition": "$session.params.mobile_or_email != null OR $session.params.phone-number != null OR $session.params.number != null OR $session.params.email != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "contact confirmation",
+    "name": "14cb0d00-fd69-4631-868a-9620be4a8820"
+  }, {
+    "intent": "telling.name",
     "condition": "$session.params.person != null",
     "triggerFulfillment": {
     
@@ -28,5 +36,6 @@
     
     },
     "name": "7f7a39bf-5e00-473b-8dfd-451e43e9563a"
-  } ]
+  } ],
+  "transitionRouteGroups": [ "CX Direct Other Intent Group" ]
 }

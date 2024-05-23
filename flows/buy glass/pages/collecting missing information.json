@@ -31,7 +31,7 @@
   },
   "transitionRoutes": [ {
     "intent": "telling.vehicle.information",
-    "condition": "$session.params.glass_type != Windscreen AND $session.params.vehicle_make != null AND $session.params.vehicle_model != null AND $session.params.vehicle_year != null AND $session.params.vehicle_body_type != null",
+    "condition": "$session.params.glass_type != Windscreen",
     "triggerFulfillment": {
     
     },
@@ -39,22 +39,15 @@
     "name": "3e740ed4-a0fe-4611-b3c5-4f4dc9e81185"
   }, {
     "intent": "telling.vehicle.information",
-    "condition": "$session.params.glass_type = Windscreen AND $session.params.vehicle_make != null AND $session.params.vehicle_model != null AND $session.params.vehicle_year != null AND $session.params.vehicle_body_type != null",
+    "condition": "$session.params.glass_type = Windscreen",
     "triggerFulfillment": {
     
     },
     "targetPage": "windscreen extra information",
     "name": "2bd5bbdc-55c0-4260-a999-c7c5a8f9c139"
-  }, {
-    "intent": "telling.vehicle.information",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "recollecting missing",
-    "name": "6f3b3fa4-8b80-4267-9f9a-cfb9bf90d520"
   } ],
   "eventHandlers": [ {
-    "targetPage": "recollecting missing",
+    "targetFlow": "cx direct",
     "event": "sys.no-match-default",
     "triggerFulfillment": {
     
