@@ -1,6 +1,15 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Buy ",
+      "auto": true
+    }, {
+      "text": "Glass"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "do you have ",
       "auto": true
     }, {

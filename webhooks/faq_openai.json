@@ -1,0 +1,10 @@
+{
+  "name": "9979bcbc-619f-47ad-a451-a414d90dcebb",
+  "displayName": "faq_openai",
+  "genericWebService": {
+    "uri": "https://a4e0-2402-d000-a400-bc-3484-db60-1c99-6bdb.ngrok-free.app/faq"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

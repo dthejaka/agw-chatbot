@@ -30,7 +30,7 @@
       "languageCode": "en"
     } ],
     "generators": [ {
-      "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/7c1bd3c0-6b25-4d7f-94d0-213934f806fe",
+      "generator": "projects/chatbot-424703/locations/global/agents/e61367e4-62d7-4b45-ae35-cbcecea481e4/generators/7c1bd3c0-6b25-4d7f-94d0-213934f806fe",
       "outputParameter": "$request.generative.part_finder_response"
     } ]
   },
@@ -52,7 +52,7 @@
         "languageCode": "en"
       } ],
       "generators": [ {
-        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
+        "generator": "projects/chatbot-424703/locations/global/agents/e61367e4-62d7-4b45-ae35-cbcecea481e4/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
         "outputParameter": "$request.generative.fallback2"
       } ]
     },

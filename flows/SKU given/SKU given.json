@@ -72,7 +72,7 @@
     },
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
-      "dataStore": "projects/609843612112/locations/global/collections/default_collection/dataStores/un-agw-faq-csv_1715673688492",
+      "dataStore": "projects/969155661970/locations/global/collections/default_collection/dataStores/un-agw-faq-csv_1715673688492",
       "languageCode": "en",
       "documentProcessingMode": "DOCUMENTS"
     } ]

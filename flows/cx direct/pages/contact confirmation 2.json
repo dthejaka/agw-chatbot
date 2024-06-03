@@ -7,14 +7,27 @@
   "entryFulfillment": {
     "messages": [ {
       "payload": {
-        "richContent": [ [ {
-          "options": [ {
-            "text": "Yes"
+        "botcopy": [ {
+          "suggestions": [ {
+            "action": {
+              "message": {
+                "command": "Yes",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Yes"
           }, {
-            "text": "No"
-          } ],
-          "type": "chips"
-        } ] ]
+            "action": {
+              "message": {
+                "command": "No",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "No"
+          } ]
+        } ]
       },
       "languageCode": "en"
     } ]
@@ -24,7 +37,7 @@
     "triggerFulfillment": {
     
     },
-    "targetPage": "thank you",
+    "targetPage": "additional message",
     "name": "9556d949-16d2-472a-8d0c-b95efea14863"
   }, {
     "intent": "saying.no",

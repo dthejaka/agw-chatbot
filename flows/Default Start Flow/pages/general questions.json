@@ -19,7 +19,7 @@
     },
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
-      "dataStore": "projects/609843612112/locations/global/collections/default_collection/dataStores/agw-faqs-1_1713771859807",
+      "dataStore": "projects/969155661970/locations/global/collections/default_collection/dataStores/agw-faqs-1_1713771859807",
       "languageCode": "en",
       "documentProcessingMode": "DOCUMENTS"
     } ]

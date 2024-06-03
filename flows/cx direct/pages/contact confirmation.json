@@ -26,6 +26,25 @@
             "languageCode": "en"
           }
         } ]
+      }, {
+        "condition": "$session.params.phone-number != null",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "can we contact you through $session.params.phone-number" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "can we contact you through $session.params.number" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
       } ]
     } ]
   },

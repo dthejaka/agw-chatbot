@@ -22,7 +22,7 @@
       "languageCode": "en"
     } ],
     "generators": [ {
-      "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/13156c55-56e4-4b33-bd13-ff81a4f90aa3",
+      "generator": "projects/chatbot-424703/locations/global/agents/e61367e4-62d7-4b45-ae35-cbcecea481e4/generators/13156c55-56e4-4b33-bd13-ff81a4f90aa3",
       "outputParameter": "$request.generative.name"
     } ]
   },

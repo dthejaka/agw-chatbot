@@ -12,12 +12,18 @@
       "languageCode": "en"
     }, {
       "payload": {
-        "richContent": [ [ {
-          "options": [ {
-            "text": "Contact Customer Support"
-          } ],
-          "type": "chips"
-        } ] ]
+        "botcopy": [ {
+          "suggestions": [ {
+            "action": {
+              "message": {
+                "command": "Contact Customer Support",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Contact Customer Support"
+          } ]
+        } ]
       },
       "languageCode": "en"
     } ]
@@ -57,7 +63,7 @@
         "languageCode": "en"
       } ],
       "generators": [ {
-        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/15fd4d47-627b-4695-8674-476bb572230f",
+        "generator": "projects/chatbot-424703/locations/global/agents/e61367e4-62d7-4b45-ae35-cbcecea481e4/generators/15fd4d47-627b-4695-8674-476bb572230f",
         "outputParameter": "$request.generative.order_collect_error"
       } ]
     },

@@ -12,17 +12,25 @@
       "languageCode": "en"
     }, {
       "payload": {
-        "richContent": [ [ {
-          "anchor": {
-            "href": "https://www.autoglasswarehouse.com.au/_myacct/nr_track_order"
-          },
-          "image": {
-            "rawUrl": "https://static.vecteezy.com/system/resources/previews/004/896/077/original/pin-location-with-box-for-shipment-tracker-tracking-track-order-concept-illustration-flat-design-icon-sign-symbol-button-logo-stock-eps10-vector.jpg"
-          },
-          "subtitle": "Click here to track your order",
-          "title": "Track your order",
-          "type": "info"
-        } ] ]
+        "botcopy": [ {
+          "card": {
+            "action": {
+              "buttons": [ {
+                "action": {
+                  "link": {
+                    "target": "_blank",
+                    "url": "https://www.autoglasswarehouse.com.au/_myacct/nr_track_order"
+                  }
+                },
+                "title": "Click Here"
+              } ]
+            },
+            "image": {
+              "alt": "Image of a box",
+              "url": "https://static.vecteezy.com/system/resources/previews/004/896/077/original/pin-location-with-box-for-shipment-tracker-tracking-track-order-concept-illustration-flat-design-icon-sign-symbol-button-logo-stock-eps10-vector.jpg"
+            }
+          }
+        } ]
       },
       "languageCode": "en"
     }, {
@@ -32,12 +40,18 @@
       "languageCode": "en"
     }, {
       "payload": {
-        "richContent": [ [ {
-          "options": [ {
-            "text": "Contact Customer Support"
-          } ],
-          "type": "chips"
-        } ] ]
+        "botcopy": [ {
+          "suggestions": [ {
+            "action": {
+              "message": {
+                "command": "Contact Customer Support",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Contact Customer Support"
+          } ]
+        } ]
       },
       "languageCode": "en"
     } ]
@@ -60,17 +74,23 @@
         "languageCode": "en"
       }, {
         "payload": {
-          "richContent": [ [ {
-            "options": [ {
-              "text": "Contact Customer Support"
-            } ],
-            "type": "chips"
-          } ] ]
+          "botcopy": [ {
+            "suggestions": [ {
+              "action": {
+                "message": {
+                  "command": "Contact Customer Support",
+                  "type": "training"
+                }
+              },
+              "blocking": true,
+              "title": "Contact Customer Support"
+            } ]
+          } ]
         },
         "languageCode": "en"
       } ],
       "generators": [ {
-        "generator": "projects/agw-chatbot-423301/locations/global/agents/30a3fb7c-6037-4168-9ce1-f661e828d7c7/generators/15fd4d47-627b-4695-8674-476bb572230f",
+        "generator": "projects/chatbot-424703/locations/global/agents/e61367e4-62d7-4b45-ae35-cbcecea481e4/generators/15fd4d47-627b-4695-8674-476bb572230f",
         "outputParameter": "$request.generative.order_track_error"
       } ]
     },

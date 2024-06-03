@@ -25,5 +25,5 @@
   } ],
   "priority": 500000,
   "description": "This intent is triggered when a user asked to buy a glass for their vehicles and only triggered for glass related questions",
-  "numTrainingPhrases": 22
+  "numTrainingPhrases": 23
 }

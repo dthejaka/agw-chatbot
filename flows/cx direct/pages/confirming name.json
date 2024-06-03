@@ -12,14 +12,27 @@
       "languageCode": "en"
     }, {
       "payload": {
-        "richContent": [ [ {
-          "options": [ {
-            "text": "Yes"
+        "botcopy": [ {
+          "suggestions": [ {
+            "action": {
+              "message": {
+                "command": "Yes",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Yes"
           }, {
-            "text": "No"
-          } ],
-          "type": "chips"
-        } ] ]
+            "action": {
+              "message": {
+                "command": "No",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "No"
+          } ]
+        } ]
       },
       "languageCode": "en"
     } ]

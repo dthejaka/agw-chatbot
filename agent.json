@@ -3,7 +3,7 @@
   "supportedLanguageCodes": [ "en-au" ],
   "timeZone": "Australia/Sydney",
   "enableLogging": true,
-  "projectNumber": 609843612112,
+  "projectNumber": 969155661970,
   "speechToTextSettings": {
   
   },
@@ -33,7 +33,7 @@
   
   },
   "genAppBuilderSettings": {
-    "engine": "projects/609843612112/locations/global/collections/default_collection/engines/un-agw-faq-csv_1715673632575"
+    "engine": "projects/969155661970/locations/global/collections/default_collection/engines/e61367e4-62d7-4b45-ae35-cbcecea481e4"
   },
   "duplexSettings": {
   
@@ -42,6 +42,6 @@
     "enableAnswerFeedback": true
   },
   "webClientSettings": {
-  
+    "boxBorderRadius": "0"
   }
 }
