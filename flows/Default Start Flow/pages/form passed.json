@@ -1,0 +1,19 @@
+{
+  "name": "3bb68c20-e618-42df-a6cc-5d60c56f4136",
+  "displayName": "form passed",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "faq_openai",
+      "tag": "faq_question"
+    },
+    "name": "d940a460-e5e0-480e-8425-0cd717815e96"
+  } ],
+  "transitionRouteGroups": [ "All Intents" ]
+}

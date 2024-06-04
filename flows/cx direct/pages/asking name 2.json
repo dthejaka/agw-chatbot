@@ -12,12 +12,18 @@
       "languageCode": "en"
     }, {
       "payload": {
-        "richContent": [ [ {
-          "options": [ {
-            "text": "Continue"
-          } ],
-          "type": "chips"
-        } ] ]
+        "botcopy": [ {
+          "suggestions": [ {
+            "action": {
+              "message": {
+                "command": "Continue",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Continue"
+          } ]
+        } ]
       },
       "languageCode": "en"
     } ],

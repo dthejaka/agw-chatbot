@@ -1,0 +1,14 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Main",
+      "parameterId": "vehicle_make",
+      "auto": true
+    }, {
+      "text": " Menu",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

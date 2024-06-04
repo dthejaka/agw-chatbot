@@ -1,0 +1,58 @@
+{
+  "name": "85794e70-3087-4c21-b415-046d3e3692a0",
+  "displayName": "cancel request",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "How can I assist you today?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "botcopy": [ {
+          "suggestions": [ {
+            "action": {
+              "message": {
+                "command": "Buy Glass",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Buy Glass"
+          }, {
+            "action": {
+              "message": {
+                "command": "Order Track",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Order Track"
+          }, {
+            "action": {
+              "message": {
+                "command": "Customer Support",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Customer Support"
+          } ]
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "faq_openai",
+      "tag": "faq_openai"
+    },
+    "name": "902cea30-73e7-48c2-b07c-782ab1031d49"
+  } ],
+  "transitionRouteGroups": [ "Buy Glass Other Intent Group" ]
+}

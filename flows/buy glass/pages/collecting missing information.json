@@ -6,49 +6,90 @@
   },
   "entryFulfillment": {
     "messages": [ {
-      "text": {
-        "text": [ "$request.generative.information_gathering" ]
+      "payload": {
+        "botcopy": [ {
+          "form": {
+            "action": {
+              "message": {
+                "command": "Vehicle Form Submitted",
+                "type": "event"
+              }
+            },
+            "fields": [ {
+              "error": "This field is required.",
+              "expose": true,
+              "label": "Vehicle Make",
+              "parameter": "vehicle_make",
+              "placeholder": "Honda, Toyota, Mazda etc.",
+              "required": true,
+              "type": "Text"
+            }, {
+              "error": "This field is required.",
+              "expose": true,
+              "label": "Vehicle Model",
+              "parameter": "vehicle_model",
+              "placeholder": "Civic, Camry, CX-30 etc.",
+              "required": true,
+              "type": "Text"
+            }, {
+              "expose": true,
+              "label": "Vehicle Year",
+              "parameter": "vehicle_year",
+              "type": "Text"
+            }, {
+              "expose": true,
+              "label": "Body Type",
+              "parameter": "vehicle_body_type",
+              "placeholder": "Sedan, Hatch, Coupe etc.",
+              "type": "Text"
+            }, {
+              "error": "This field is required.",
+              "expose": true,
+              "label": "Vehicle Part",
+              "parameter": "glass_type",
+              "placeholder": "Front windscreen, front left door glass etc.",
+              "required": true,
+              "type": "Text"
+            } ],
+            "force": true,
+            "style": "message",
+            "title": "Vehicle Information"
+          }
+        } ]
       },
       "languageCode": "en"
-    } ],
-    "generators": [ {
-      "generator": "projects/chatbot-424703/locations/global/agents/e61367e4-62d7-4b45-ae35-cbcecea481e4/generators/0e439d28-7042-4883-ae9d-4ea5a81f8fd3",
-      "inputParameters": [ {
-        "key": "body",
-        "value": "$session.params.vehicle_body_type"
-      }, {
-        "key": "make",
-        "value": "$session.params.vehicle_make"
-      }, {
-        "key": "model",
-        "value": "$session.params.vehicle_model"
-      }, {
-        "key": "year",
-        "value": "$session.params.vehicle_year"
-      } ],
-      "outputParameter": "$request.generative.information_gathering"
+    }, {
+      "payload": {
+        "botcopy": [ {
+          "suggestions": [ {
+            "action": {
+              "message": {
+                "command": "Cancel Request",
+                "type": "training"
+              }
+            },
+            "blocking": true,
+            "title": "Cancel Request"
+          } ]
+        } ]
+      },
+      "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
-    "intent": "telling.vehicle.information",
-    "condition": "$session.params.glass_type != Windscreen",
+    "intent": "cancel.request",
     "triggerFulfillment": {
-    
+      "setParameterActions": [ {
+        "parameter": "cancel_request",
+        "value": "valid"
+      } ]
     },
-    "targetFlow": "cx direct",
-    "name": "3e740ed4-a0fe-4611-b3c5-4f4dc9e81185"
-  }, {
-    "intent": "telling.vehicle.information",
-    "condition": "$session.params.glass_type = Windscreen",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "windscreen extra information",
-    "name": "2bd5bbdc-55c0-4260-a999-c7c5a8f9c139"
+    "targetPage": "cancel request",
+    "name": "59fdb599-cab7-415f-ab8e-effdac7ad550"
   } ],
   "eventHandlers": [ {
     "targetFlow": "cx direct",
-    "event": "sys.no-match-default",
+    "event": "Vehicle Form Submitted",
     "triggerFulfillment": {
     
     },

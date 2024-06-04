@@ -7,40 +7,48 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Hi, how can I help you?" ]
+          "text": [ "G'day! I'm Albert, your Autoglass Warehouse virtual assistant.  " ]
         },
         "languageCode": "en"
       }, {
         "payload": {
           "botcopy": [ {
-            "suggestions": [ {
+            "form": {
               "action": {
                 "message": {
-                  "command": "Buy Glass",
-                  "type": "training"
+                  "command": "Form Filled",
+                  "type": "event"
                 }
               },
-              "blocking": true,
-              "title": "Buy Glass"
-            }, {
-              "action": {
-                "message": {
-                  "command": "Order Track",
-                  "type": "training"
-                }
-              },
-              "blocking": true,
-              "title": "Order Track"
-            }, {
-              "action": {
-                "message": {
-                  "command": "Customer Support",
-                  "type": "training"
-                }
-              },
-              "blocking": true,
-              "title": "Customer Support"
-            } ]
+              "fields": [ {
+                "error": "This field is required.",
+                "expose": true,
+                "label": "Name",
+                "parameter": "form_name",
+                "required": true,
+                "type": "Text"
+              }, {
+                "error": "This field is required.",
+                "expose": true,
+                "label": "Mobile Number",
+                "parameter": "form_mobile",
+                "required": true,
+                "type": "tel"
+              }, {
+                "error": "This field is required.",
+                "expose": true,
+                "helperText": "Format: email@domain.com",
+                "label": "Email Address",
+                "parameter": "form_email",
+                "placeholder": "matt@botcopy.com",
+                "required": false,
+                "type": "email"
+              } ],
+              "force": false,
+              "style": "message",
+              "subtitle": "International customers please provide their email address as the method of contact.",
+              "title": "Contact Information"
+            }
           } ]
         },
         "languageCode": "en"
@@ -112,6 +120,13 @@
     },
     "targetFlow": "SKU given",
     "name": "43caa9fb-612f-4ea4-9773-c3c258306d6c"
+  }, {
+    "condition": "$session.params.cancel_request = valid",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "form passed",
+    "name": "ade31450-c841-4385-ba7d-00ee704b38f6"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -142,6 +157,56 @@
       } ]
     },
     "name": "e740b532-d5ed-4b8a-8c94-6d0f7303d479"
+  }, {
+    "targetPage": "form passed",
+    "event": "Form Filled",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you for providing the information. How can I assist you today?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "botcopy": [ {
+            "suggestions": [ {
+              "action": {
+                "message": {
+                  "command": "Buy Glass",
+                  "type": "training"
+                }
+              },
+              "blocking": true,
+              "title": "Buy Glass"
+            }, {
+              "action": {
+                "message": {
+                  "command": "Order Track",
+                  "type": "training"
+                }
+              },
+              "blocking": true,
+              "title": "Order Track"
+            }, {
+              "action": {
+                "message": {
+                  "command": "Customer Support",
+                  "type": "training"
+                }
+              },
+              "blocking": true,
+              "title": "Customer Support"
+            } ]
+          } ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "demo_form_filled",
+        "value": "valid"
+      } ]
+    },
+    "name": "20d7fa9c-e67c-452d-8249-99f95ea77042"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",

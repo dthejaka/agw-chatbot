@@ -1,0 +1,33 @@
+{
+  "name": "4d5ab5a0-889c-4d30-a811-a8a2bab9cbba",
+  "displayName": "All Intents",
+  "transitionRoutes": [ {
+    "intent": "glass.buy",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "buy glass",
+    "name": "907c77d4-b156-4d9e-8389-77916e0ed6b0"
+  }, {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "cx direct",
+    "name": "64c94b90-f4eb-40b8-ae8b-4c4131749a9a"
+  }, {
+    "intent": "order.tracking",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "order tracking",
+    "name": "ba0c75eb-d711-4d71-9752-ebb5c7d944e0"
+  }, {
+    "intent": "sku.given",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "SKU given",
+    "name": "31bf69d8-9ea4-4faa-9177-d1091dcc0d94"
+  } ]
+}
