@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "You can track your order using below link.\n" ]
+        "text": [ "Great! You can track your order using the link below:\n" ]
       },
       "languageCode": "en"
     }, {
@@ -35,7 +35,7 @@
       "languageCode": "en"
     }, {
       "text": {
-        "text": [ "If you need further assistance, please contact one of our customer service agent." ]
+        "text": [ "If you need further assistance, one of our customer service agents can get back to you via phone or email. Would you like extra support or any additional information from a customer support agent?" ]
       },
       "languageCode": "en"
     }, {

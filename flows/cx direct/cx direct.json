@@ -2,6 +2,13 @@
   "name": "d24da346-77fb-4f69-bcf9-9ed90d6aec3c",
   "displayName": "cx direct",
   "transitionRoutes": [ {
+    "condition": "$session.params.demo_form_filled = valid",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "asking additional message",
+    "name": "578d67ad-3a44-4f18-a92b-c15ab2fac8e7"
+  }, {
     "condition": "$session.params.form_name != null AND $session.params.form_mobile != null",
     "triggerFulfillment": {
     

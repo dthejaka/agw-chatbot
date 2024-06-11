@@ -6,5 +6,5 @@
     "entityType": "@orderid"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 29
+  "numTrainingPhrases": 28
 }

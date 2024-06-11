@@ -19,7 +19,7 @@
               "error": "This field is required.",
               "expose": true,
               "label": "Vehicle Make",
-              "parameter": "vehicle_make",
+              "parameter": "form_vehicle_make",
               "placeholder": "Honda, Toyota, Mazda etc.",
               "required": true,
               "type": "Text"
@@ -27,28 +27,34 @@
               "error": "This field is required.",
               "expose": true,
               "label": "Vehicle Model",
-              "parameter": "vehicle_model",
+              "parameter": "form_vehicle_model",
               "placeholder": "Civic, Camry, CX-30 etc.",
               "required": true,
               "type": "Text"
             }, {
               "expose": true,
               "label": "Vehicle Year",
-              "parameter": "vehicle_year",
+              "parameter": "form_vehicle_year",
               "type": "Text"
             }, {
               "expose": true,
               "label": "Body Type",
-              "parameter": "vehicle_body_type",
+              "parameter": "form_vehicle_body_type",
               "placeholder": "Sedan, Hatch, Coupe etc.",
               "type": "Text"
             }, {
               "error": "This field is required.",
               "expose": true,
               "label": "Vehicle Part",
-              "parameter": "glass_type",
+              "parameter": "form_glass_type",
               "placeholder": "Front windscreen, front left door glass etc.",
               "required": true,
+              "type": "Text"
+            }, {
+              "expose": true,
+              "label": "SKU",
+              "parameter": "form_sku",
+              "placeholder": "(optional)",
               "type": "Text"
             } ],
             "force": true,

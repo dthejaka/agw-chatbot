@@ -39,16 +39,8 @@
   "eventHandlers": [ {
     "event": "sys.no-match-default",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "$request.generative.fallback3" ]
-        },
-        "languageCode": "en"
-      } ],
-      "generators": [ {
-        "generator": "projects/chatbot-424703/locations/global/agents/e61367e4-62d7-4b45-ae35-cbcecea481e4/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
-        "outputParameter": "$request.generative.fallback3"
-      } ]
+      "webhook": "faq_openai",
+      "tag": "faq_openai"
     },
     "name": "7b8acdf7-5e34-4ff0-95dc-18923009cfe4"
   } ]

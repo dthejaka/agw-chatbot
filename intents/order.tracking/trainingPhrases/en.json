@@ -71,13 +71,6 @@
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "Has my order shipped yet?",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
       "text": "Is my order ready for pickup?",
       "auto": true
     } ],

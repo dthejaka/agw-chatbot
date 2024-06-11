@@ -2,7 +2,7 @@
   "name": "9979bcbc-619f-47ad-a451-a414d90dcebb",
   "displayName": "faq_openai",
   "genericWebService": {
-    "uri": "https://efba-2402-d000-a400-259a-9d62-f0e0-bdbb-9a73.ngrok-free.app/faq"
+    "uri": "https://agw-chatbot.onrender.com/faq"
   },
   "timeout": {
     "seconds": 30

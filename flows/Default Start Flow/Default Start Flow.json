@@ -4,6 +4,52 @@
   "description": "A start flow created along with the agent",
   "transitionRoutes": [ {
     "intent": "Default Welcome Intent",
+    "condition": "$session.params.demo_form_filled = valid",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hey there, how can I assist you today?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "botcopy": [ {
+            "suggestions": [ {
+              "action": {
+                "message": {
+                  "command": "Buy Glass",
+                  "type": "training"
+                }
+              },
+              "blocking": true,
+              "title": "Buy Glass"
+            }, {
+              "action": {
+                "message": {
+                  "command": "Order Track",
+                  "type": "training"
+                }
+              },
+              "blocking": true,
+              "title": "Order Track"
+            }, {
+              "action": {
+                "message": {
+                  "command": "Customer Support",
+                  "type": "training"
+                }
+              },
+              "blocking": true,
+              "title": "Customer Support"
+            } ]
+          } ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9a2d31ed-34a1-493f-a4ac-a57bb90cafd8"
+  }, {
+    "intent": "Default Welcome Intent",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -35,16 +81,29 @@
                 "required": true,
                 "type": "tel"
               }, {
-                "error": "This field is required.",
                 "expose": true,
                 "helperText": "Format: email@domain.com",
                 "label": "Email Address",
                 "parameter": "form_email",
-                "placeholder": "matt@botcopy.com",
+                "placeholder": "(optional)",
                 "required": false,
                 "type": "email"
+              }, {
+                "expose": true,
+                "label": "Suburb",
+                "parameter": "form_suburb",
+                "placeholder": "(optional)",
+                "required": false,
+                "type": "Text"
+              }, {
+                "expose": true,
+                "label": "Postcode",
+                "parameter": "form_postcode",
+                "placeholder": "(optional)",
+                "required": false,
+                "type": "number"
               } ],
-              "force": false,
+              "force": true,
               "style": "message",
               "subtitle": "International customers please provide their email address as the method of contact.",
               "title": "Contact Information"
@@ -204,6 +263,9 @@
       "setParameterActions": [ {
         "parameter": "demo_form_filled",
         "value": "valid"
+      }, {
+        "parameter": "bcDisableInputBar",
+        "value": "true"
       } ]
     },
     "name": "20d7fa9c-e67c-452d-8249-99f95ea77042"
