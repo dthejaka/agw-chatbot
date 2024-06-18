@@ -1,6 +1,12 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Purchase Glass"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "Can I order one please",
       "auto": true
     } ],

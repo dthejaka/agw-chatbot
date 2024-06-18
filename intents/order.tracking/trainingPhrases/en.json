@@ -1,6 +1,13 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Track My Order",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "My order number is ",
       "auto": true
     }, {

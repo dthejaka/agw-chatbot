@@ -17,21 +17,21 @@
             "suggestions": [ {
               "action": {
                 "message": {
-                  "command": "Buy Glass",
+                  "command": "Purchase Glass",
                   "type": "training"
                 }
               },
               "blocking": true,
-              "title": "Buy Glass"
+              "title": "Purchase Glass"
             }, {
               "action": {
                 "message": {
-                  "command": "Order Track",
+                  "command": "Track My Order",
                   "type": "training"
                 }
               },
               "blocking": true,
-              "title": "Order Track"
+              "title": "Track My Order"
             }, {
               "action": {
                 "message": {
@@ -231,21 +231,21 @@
             "suggestions": [ {
               "action": {
                 "message": {
-                  "command": "Buy Glass",
+                  "command": "Purchase Glass",
                   "type": "training"
                 }
               },
               "blocking": true,
-              "title": "Buy Glass"
+              "title": "Purchase Glass"
             }, {
               "action": {
                 "message": {
-                  "command": "Order Track",
+                  "command": "Track My Order",
                   "type": "training"
                 }
               },
               "blocking": true,
-              "title": "Order Track"
+              "title": "Track My Order"
             }, {
               "action": {
                 "message": {

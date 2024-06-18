@@ -1,0 +1,53 @@
+{
+  "name": "6aa66647-25f9-44f6-808d-a04460224b02",
+  "displayName": "showing vehicles",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "botcopy": [ {
+          "carousel": [ {
+            "action": {
+              "link": {
+                "target": "_blank",
+                "url": "https://botcopy.com"
+              }
+            },
+            "image": {
+              "alt": "Image of a cat",
+              "url": "https://www.autoglasswarehouse.com.au/assets/webshop/cms/58/6758.jpg?1586833403"
+            },
+            "title": "Honda Civic 2012"
+          }, {
+            "action": {
+              "link": {
+                "target": "_blank",
+                "url": "https://botcopy.com"
+              }
+            },
+            "image": {
+              "alt": "Image of a cat",
+              "url": "https://www.autoglasswarehouse.com.au/assets/webshop/cms/58/6758.jpg?1586833403"
+            },
+            "title": "Honda Civic 2012"
+          }, {
+            "action": {
+              "link": {
+                "target": "_blank",
+                "url": "https://botcopy.com"
+              }
+            },
+            "image": {
+              "alt": "Image of a cat",
+              "url": "https://www.autoglasswarehouse.com.au/assets/webshop/cms/58/6758.jpg?1586833403"
+            },
+            "title": "Honda Civic 2012"
+          } ]
+        } ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

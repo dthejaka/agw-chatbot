@@ -1,0 +1,10 @@
+{
+  "name": "a21825f4-1d8c-4c5b-a627-dbf5ad8a8fbd",
+  "displayName": "search_vehicle",
+  "genericWebService": {
+    "uri": "https://chatbot-staging.onrender.com/buyglass"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}
