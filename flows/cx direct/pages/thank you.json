@@ -28,21 +28,21 @@
             "suggestions": [ {
               "action": {
                 "message": {
-                  "command": "Buy Glass",
+                  "command": "Purchase Glass",
                   "type": "training"
                 }
               },
               "blocking": true,
-              "title": "Buy Glass"
+              "title": "Purchase Glass"
             }, {
               "action": {
                 "message": {
-                  "command": "Order Track",
+                  "command": "Track My Order",
                   "type": "training"
                 }
               },
               "blocking": true,
-              "title": "Order Track"
+              "title": "Track My Order"
             }, {
               "action": {
                 "message": {
@@ -56,6 +56,10 @@
           } ]
         },
         "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "botcopyFeedback",
+        "value": true
       } ]
     },
     "targetFlow": "Default Start Flow",

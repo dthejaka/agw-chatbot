@@ -1,0 +1,33 @@
+{
+  "name": "a1f69f66-5eb6-41a2-a790-be2020d27f2c",
+  "displayName": "finding vehicles",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hey, I found these vehicles for you. If you need further information, please contact a customer support agent." ]
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "search_vehicle",
+    "tag": "search"
+  },
+  "transitionRoutes": [ {
+    "intent": "customer.team.direct",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "cx direct",
+    "name": "39e476a8-2ad1-4764-b879-0a07bd7bfe3d"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "faq_openai",
+      "tag": "faq_openai"
+    },
+    "name": "1b0b4629-1e4c-4706-9c67-adcb52bbcfbe"
+  } ]
+}

@@ -7,25 +7,52 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "$request.generative.part_finder_response" ]
+        "text": [ "For a tailored fit, please fill out the form below with your vehicle information." ]
       },
       "languageCode": "en"
     }, {
       "payload": {
-        "richContent": [ [ {
-          "accessibilityText": "",
-          "rawUrl": "https://academy-safety.mymaropost.com/assets/image/ezgif.com-speed_11.gif",
-          "reference": {
-            "anchor": {
-              "href": "https://academy-safety.mymaropost.com/assets/image/ezgif.com-speed_11.gif"
+        "botcopy": [ {
+          "form": {
+            "action": {
+              "message": {
+                "command": "Vehicle Form Submitted",
+                "type": "event"
+              }
             },
-            "image": {
-              "rawUrl": "https://academy-safety.mymaropost.com/assets/image/ezgif.com-speed_11.gif"
-            },
-            "text": "Logo"
-          },
-          "type": "image"
-        } ] ]
+            "fields": [ {
+              "error": "This field is required.",
+              "expose": true,
+              "label": "Vehicle Make",
+              "parameter": "form_vehicle_make",
+              "placeholder": "Honda, Toyota, Mazda etc.",
+              "required": true,
+              "type": "Text"
+            }, {
+              "error": "This field is required.",
+              "expose": true,
+              "label": "Vehicle Model",
+              "parameter": "form_vehicle_model",
+              "placeholder": "Civic, Camry, CX-30 etc.",
+              "required": true,
+              "type": "Text"
+            }, {
+              "expose": true,
+              "label": "Vehicle Year",
+              "parameter": "form_vehicle_year",
+              "type": "Text"
+            }, {
+              "expose": true,
+              "label": "Body Type",
+              "parameter": "form_vehicle_body_type",
+              "placeholder": "Sedan, Hatch, Coupe etc.",
+              "type": "Text"
+            } ],
+            "force": true,
+            "style": "message",
+            "title": "Vehicle Information"
+          }
+        } ]
       },
       "languageCode": "en"
     } ],
@@ -35,27 +62,26 @@
     } ]
   },
   "transitionRoutes": [ {
-    "condition": "true",
+    "intent": "cancel.request",
     "triggerFulfillment": {
     
     },
-    "targetPage": "direct me feature",
-    "name": "42490610-0a3a-4e74-aa84-a746f02b28a5"
+    "targetFlow": "Default Start Flow",
+    "name": "20dd7365-d7a7-4ea9-b214-a4ac88387b72"
   } ],
   "eventHandlers": [ {
-    "event": "sys.no-match-default",
+    "targetPage": "finding vehicles",
+    "event": "Vehicle Form Submitted",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "$request.generative.fallback2" ]
-        },
-        "languageCode": "en"
-      } ],
-      "generators": [ {
-        "generator": "projects/chatbot-424703/locations/global/agents/f23f876e-460f-45a9-9f3f-1a41fdf21856/generators/ee68d1c9-f2d1-40c9-8990-ca3d8bef825a",
-        "outputParameter": "$request.generative.fallback2"
-      } ]
+    
     },
     "name": "91189780-864a-4571-b884-f5c0ff09600d"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "faq_openai",
+      "tag": "faq_openai"
+    },
+    "name": "b867a555-3f48-475a-b6cc-7604854ad463"
   } ]
 }
